@@ -50,6 +50,12 @@ html {
 	grid-template-columns: 33.33% 33.33% 33.33%;
 }
 
+@media (max-width: 811px) {
+	.experience-list-grid {
+		grid-template-columns: 100%; 
+	}
+}
+
 li {
 	padding-bottom: 5px
 }
@@ -167,34 +173,8 @@ ul {
 	vertical-align: top;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 840px) {
 	.projects-grid {
 		grid-template-columns: 100%; 
 	}
 }
-
-.links-and-constacts {
-	display: grid;
-	grid-template-columns: 30% 70%;
-}
-
-.links {
-	justify-self: center;
-}
-
-.links-list {
-	list-style: none;
-	padding: 0;
-}
-
-@media (max-width: 650px) {
-.linkes-and-contacts {
-	grid-template-columns: 100%;
-	}
-}
-
-
-	/* justify-self: center;
-	padding: 4%;
-	position: relative;
-}*/
